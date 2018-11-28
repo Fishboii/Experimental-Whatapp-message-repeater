@@ -10,12 +10,12 @@ This program is written using Python 3.7 with the selenium module. \
 Before running the code, make sure you have selenium installed. \
 If you have any questions, you can email me at juntaozhang0617@gmail.com. \
 Important: You need to create a file with Chromedriver.exe on your computer. You can go to https://sites.google.com/a/chromium.org/chromedriver/downloads to get the latest version. You will then need to get the path of the file (Properties or More Info) and paste it into line 9 of the code.\
-<div id=model> The code should look like:\
+<div id=model> The code should look like:</div>
 driver = webdriver.Chrome(executable_path=r'C:\Users\junta\Desktop\Selenium drivers\Chromedriver.exe')\
 \
 And you would need to change it to:\
 driver = webdriver.Chrome(executable_path=r' Your Chromedriver.exe path ')
-
+  
 # Instructions for entering your path
 <ol>
   <li>Go to https://sites.google.com/a/chromium.org/chromedriver/downloads and download the latest version of Chromedriver
