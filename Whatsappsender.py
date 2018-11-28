@@ -8,13 +8,15 @@ while True:
         nums = input("Number of messages: ")
         driver = webdriver.Chrome(executable_path=r'C:\Users\junta\Desktop\Selenium drivers\Chromedriver.exe')
         driver.get('https://web.whatsapp.com/')
-        input('Hit ENTER after you scanned the QR code.')
+        input('Hit ENTER after you scanned the QR code. \n')
+        print("Bombs away")
         time.sleep(3)
         elem = driver.find_element_by_xpath("//span[@title='{}']".format(name)).click()
         elem = driver.find_element_by_css_selector("._2S1VP.copyable-text.selectable-text")
         for i in range(int(nums)):
             elem.send_keys(msg)
             elem.send_keys(Keys.RETURN)
-        print("Message has been sent")
+        print("     ,--.!,\n  __/   -*-\n,d08b.  '|`\n0088MM\n`9MMP'      ")
+        print("Message(s) sent")
     except:
         print('An error has occurred')
