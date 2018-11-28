@@ -11,9 +11,9 @@ If you have any questions, you can email me at juntaozhang0617@gmail.com.
 
 # Instructions
 <ol>
-<li>Enter the group or receiver's name. \
-<li>Enter the number of times you want to send the message. \
-<li>Enter the message. \
-<li>The program will open Whatsapp web , you will need to use your phone to scan the QR code. \
+<li>Enter the group or receiver's name. 
+<li>Enter the number of times you want to send the message. 
+<li>Enter the message. 
+<li>The program will open Whatsapp web , you will need to use your phone to scan the QR code. 
 <li>After scanning the QR code, you will then need to hit enter on the program and it will automatically start sending messages after a few seconds</li>
 <ol>
