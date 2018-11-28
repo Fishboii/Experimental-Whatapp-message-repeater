@@ -10,8 +10,10 @@ This program is written using Python 3.7 with the selenium module. \
 If you have any questions, you can email me at juntaozhang0617@gmail.com. 
 
 # Instructions
-Enter the group or receiver's name. \
-Enter the number of times you want to send the message. \
-Enter the message. \
-The program will open Whatsapp web , you will need to use your phone to scan the QR code. \
-After scanning the QR code, you will then need to hit enter on the program and it will automatically start sending messages after a few seconds
+<ol>
+<li>Enter the group or receiver's name. \
+<li>Enter the number of times you want to send the message. \
+<li>Enter the message. \
+<li>The program will open Whatsapp web , you will need to use your phone to scan the QR code. \
+<li>After scanning the QR code, you will then need to hit enter on the program and it will automatically start sending messages after a few seconds</li>
+<ol>
