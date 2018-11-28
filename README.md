@@ -7,7 +7,8 @@ Typically ~100 messages sent at once will not be a problem, but Whatsapp will ta
 
 Do not that the reciepient's name must be the one stored in your contacts. You can check them in the Whatsapp mobile app. \
 This program is written using Python 3.7 with the selenium module. \
-If you have any questions, you can email me at juntaozhang0617@gmail.com. 
+If you have any questions, you can email me at juntaozhang0617@gmail.com. \
+Important: You need to create a file with Chromedriver.exe on your computer. You can go to https://sites.google.com/a/chromium.org/chromedriver/downloads to get the latest version. You will then need to get the path of the file (Properties or More Info) and paste it into the code.
 
 # Instructions
 <ol>
