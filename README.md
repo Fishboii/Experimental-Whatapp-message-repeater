@@ -1,3 +1,6 @@
+#IMPORTANT
+Do not send too many at once, it will freeze your whatsapp and you will not be able to send more messages!
+
 # WhatsappBomber
 Will send multiple messages to someone through Whatsapp. Be warned this could lead to you getting blocked or potentially crash or slow down Whatsapp.\
 You will need a valid phone number registered to Whatsapp, the Whatsapp app and an active internet connection for this to work. \
@@ -11,7 +14,7 @@ Before running the code, make sure you have selenium installed. \
 If you have any questions, you can email me at juntaozhang0617@gmail.com. \
 Important: You need to create a file with Chromedriver.exe on your computer. You can go to https://sites.google.com/a/chromium.org/chromedriver/downloads to get the latest version. You will then need to get the path of the file (Properties or More Info) and paste it into line 9 of the code.\
 The code should look like:\
-driver = webdriver.Chrome(executable_path=r'C:\Users\junta\Desktop\Selenium drivers\Chromedriver.exe')\
+driver = webdriver.Chrome(executable_path=r'YOURPATHHERE')\
 \
 And you would need to change it to:\
 driver = webdriver.Chrome(executable_path=r' Your Chromedriver.exe path ')
@@ -20,8 +23,6 @@ driver = webdriver.Chrome(executable_path=r' Your Chromedriver.exe path ')
 <ol>
   <li>Go to https://sites.google.com/a/chromium.org/chromedriver/downloads and download the latest version of Chromedriver
   <li>Unzip the file
-  <li>Create a folder to store the .exe, I recommend the Desktop
-  <li>Right click the folder and click Properties or More Info
   <li>You will then need to check the location of the file
   <li>Copy the location to your clipboard
   <li>Paste it over the location in the code, make sure the location ends with the Chromedriver.exe
