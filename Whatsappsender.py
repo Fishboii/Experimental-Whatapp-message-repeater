@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 while True:
-    try:
         name = input("Name of recipient or group: ")
         msg = input("Message: ")
         nums = input("Number of messages: ")
@@ -18,5 +17,3 @@ while True:
             elem.send_keys(Keys.RETURN)
         print("     ,--.!,\n  __/   -*-\n,d08b.  '|`\n0088MM\n`9MMP'      ")
         print("Message(s) sent")
-    except:
-        print('An error has occurred')
