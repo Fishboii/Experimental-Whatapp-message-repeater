@@ -1,4 +1,4 @@
-#IMPORTANT
+# IMPORTANT
 Do not send too many at once, it will freeze your whatsapp and you will not be able to send more messages!
 
 # WhatsappBomber
